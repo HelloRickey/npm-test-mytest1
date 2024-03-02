@@ -1,0 +1,25 @@
+{
+  "name": "npm-test-mytest1",
+  "version": "2.1.2",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/TestClass.js --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloRickey/npm-test-mytest1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2"
+  },
+  "dependencies": {
+    "web3": "^4.1.2"
+  }
+}
