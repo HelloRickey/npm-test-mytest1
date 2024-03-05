@@ -1,6 +1,6 @@
 {
   "name": "npm-test-mytest1",
-  "version": "2.1.2",
+  "version": "2.1.5",
   "description": "",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HelloRickey/npm-test-mytest1.git"
+    "url": "https://github.com/HelloRickey/npm-test-mytest1.git"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +20,7 @@
     "@babel/preset-env": "^7.23.2"
   },
   "dependencies": {
+    "ame-sdk": "^0.1.0",
     "web3": "^4.1.2"
   }
 }
